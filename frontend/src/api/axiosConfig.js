@@ -2,7 +2,7 @@ import axios from "axios";
 
 const API = axios.create({
   // Use an environment variable, or paste your Render backend URL here
-  baseURL: process.env.REACT_APP_API_URL || "https://your-backend-name.onrender.com/api/",
+  baseURL: process.env.REACT_APP_API_URL || "https://asset2.onrender.com/api/",
 });
 
 // 🔐 attach token
